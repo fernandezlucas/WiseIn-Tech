@@ -1,2 +1,2 @@
 # WiseIn-Tech
-programação voltada ao site da empresa
+Programação voltada ao site da empresa
