@@ -1,0 +1,311 @@
+<!DOCTYPETML>
+<html lang="pt-br">
+ <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css" media="all"/>
+  <link rel="shortcut icon" href="imagens/logo.ico" />
+  <title> Formação </title>
+
+</head>
+	
+	<body>
+
+	<img class="" alt="Logotipo da L.F. Web Technology" src="imagens/fundoteste.png"/> 	  
+
+	  <header>
+	   <div class="container">
+      <h1 class="logo"></h1>
+<nav>
+        <ul>
+          <li><a href="Index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="formacao.html">Formação</a></li>
+          <li><a href="suporte.html">Suporte</a></li>
+		  <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+	</header>
+
+<!-- Estrutura base -->
+		<article>
+		
+		
+		<div id="tecnologias"></div>
+		<h1>Quadro de disciplinas:</h1>			
+		<ul class="sumario1">		
+			<li><a href="#section05"><h2>Fundamentos de Matemática Elementar</h2></a></li>
+			<li><a href="#section01"><h2>Algoritmos e Lógica de Programação</h2></a></li>
+			<li><a href="#section07"><h2>Leitura e Produção de Textos</h2></a></li>
+			<li><a href="#section08"><h2>Padrões de Projeto de Sítios Internet I</h2></a></li>			
+			<li><a href="#section06"><h2>Inglês I</h2></a></li>
+			<li><a href="#section02"><h2>Bases da Internet</h2></a></li>
+			<li><a href="#section03"><h2>Criação de Conteúdo na Web</h2></a></li>
+			<li><a href="#section04"><h2>Design Digital</h2></a></li>
+		</ul>
+	</article>
+		<br><br>
+		
+		<hr>
+
+
+<!-- Estrutura base -->
+<section id="section05">
+<h2>Fundamentos de Matemática Elementar</h2>
+<article class="artigos">
+<h3>Equação de primeiro grau</h3>
+<p>Introdução</p>
+ 
+<p>Equação é toda sentença matemática aberta que exprime uma relação de igualdade.
+ A palavra equação tem o prefixo equa, que em latim quer dizer "igual".</p>
+<p>Exemplos:</p>
+<p>
+2x + 8 = 0
+<br>
+5x - 4 = 6x + 8
+<br>
+3a - b - c = 0
+</p>
+<p>
+Não são equações:
+<br>
+4 + 8 = 7 + 5   (Não é uma sentença aberta)
+<br>
+x - 5 &lt; 3   (Não é igualdade)
+<br>
+   (não é sentença aberta, nem igualdade)
+<br>
+A equação geral do primeiro grau:
+<br>
+<br>
+<strong>Ax+B = 0</strong>
+<p>Onde a e b são números conhecidos e a diferente de 0, se resolve de maneira simples: subtraindo b dos dois lados, obtemos:</p>
+<strong>Ax = -b</strong>
+<br>
+<p>Dividindo agora por a (dos dois lados), temos:</p>
+<strong>X= -b/a</strong>
+<br>
+<p>Considera a equação 2x - 8 = 3x -10</p>
+<p>A letra é a incógnita da equação. A palavra incógnita significa " desconhecida".
+   Na equação acima a incógnita é x; tudo que antecede o sinal da igualdade denomina-se 1º membro, e o que sucede, 2º membro.</p>
+<p><strong>2x -8</strong>&nbsp;1º membro</p>
+<p><strong>3x -10</strong>&nbsp;2º membro</p>
+<br>
+<p>Qualquer parcela, do 1º ou do 2º membro, é um termo da equação.</p>
+</p>
+</article>
+
+</section>
+
+<hr>
+
+<section id="section01">
+<h2>Algoritmos e Lógica de Programação</h2>
+<article class="artigos">
+<h3>Linguagem C: estruturas condicionais</h3>
+<p>Chamamos de estruturas condicionais as instruções para testar se uma condição é verdadeira ou não.
+ Elas podem ser associadas às estruturas que se repetem, após o cumprimento da condição, chamamos a elas de estruturas de loop. </p>
+<h3>O conceito de bloco</h3>
+<p>Uma expressão seguida de um ponto e virgula é chamado de instrução.<br>
+Veja um exemplo de instrução:</p>
+
+<pre>a++;</pre>
+
+<p>Quando você quiser reunir várias instruções, você poderá criar o que chamamos de bloco, ou seja, um conjunto de instruções 
+ (seguidas, respectivamente, por pontos e vírgulas) entre chaves {e}.  As instruções if, while e for podem, por exemplo, ser seguidas de um bloco de instruções a serem executadas.</p>
+ <br>
+<h3>A instrução IF</h3>
+
+<p>A instrução IF é a estrutura de teste mais básica e é encontrada em todas as linguagens (com sintaxes diferentes).<br>
+ Ela permite executar uma série de instruções caso uma condição se realize.<br> A sintaxe desta expressão é a seguinte: </p>
+
+<pre> 
+ if (condição realizada) {
+   lista de instruções;
+}
+</pre><br><br>
+
+<h3>A instrução IF... ELSE</h3>
+<p>A instrução IF em sua forma básica só testa uma condição. Na maioria das vezes, gostaríamos de poder escolher as instruções a serem executadas em caso do não cumprimento da condição.</p>
+<p>A expressão IF... ELSE permite executar outra série de instruções em caso do não cumprimento da condição.<br>
+ A sintaxe desta expressão é a seguinte:</p>
+
+ <pre>
+ if (condição realizada) {
+   lista de instruções
+}
+else {
+  outra série de instruções
+}
+ </pre>
+
+<h3>A instrução SWITCH</h3>
+<p>A Instrução switch efetua vários testes de valores sobre o conteúdo de uma mesma variável.
+ Esta conexão condicional simplifica muito o teste de vários valores de uma variável,
+ pois esta operação teria sido complicada (mas possível) com ifs imbricados.<br> Sua sintaxe é a seguinte:</p>
+ <pre>
+ switch (variável) { 
+
+case Valor1:
+ Lista d instruções;
+
+  break;
+
+case Valor2 :
+ Lista d instruções;
+
+  break;
+
+case Valores... :
+ Lista d instruções;
+
+  Break;
+
+default:
+
+ Lista d instruções;
+
+}
+ </pre>
+ 
+ 
+ <p>Os parênteses após a palavra-chave switch indicam uma expressão cujo valor é testado,
+ sucessivamente, para cada uma das case.
+ Quando a expressão testada é igual a um dos seguintes valores seguindo um case,
+ a lista de instrução que vem depois, é executada. A palavra-chave break indica a saída da estrutura condicional.
+ A palavra-chave default precede a lista de instruções, que será executada se a expressão nunca for igual a um dos valores.</p>
+ <hr>
+ <h3>Linguagem C: estruturas de repetição</h3>
+ <h3>Estrutura de repetição FOR</h3>
+ <p>As estruturas de repetição, executam a repetição de um conjunto de instruções enquanto uma determinada condição é verdadeira.
+
+Em linguagem C, existem três estruturas de repetição, são elas: for, while e do…while.
+
+Cada uma destas estruturas tem a sua particularidade em termos de funcionamento.
+</p>
+<h3>Utilização do comando FOR</h3>
+<p>O laço for é uma estrutura de repetição muito utilizada nos programas em C.
+
+É muito útil quando se sabe de antemão quantas vezes a repetição deverá ser executada.
+
+Este laço utiliza uma variável para controlar a contagem do loop, bem como seu incremento.
+
+Trata-se de um comando bem enxuto, já que própria estrutura faz a inicialização, incremento e encerramento do laço.
+</p>
+<p>Sintaxe</p>
+<pre>
+for(valor_inicial; condição_final; valor_incremento)
+ {
+    instruções;
+ }
+</pre>
+<h3>Estrutura de repetição While</h3>
+<p>Executa a repetição de um bloco de instruções enquanto uma condição é verdadeira</p>
+<p>
+Lembrando que chamamos de variável de controle a variável testada na condição.
+ 
+Para que seja possível fazer o teste, a variável de controle deve ter sido inicializada previamente.
+ 
+Observe que o teste da condição ocorre no início do laço.
+ 
+Enquanto a condição permanecer verdadeira, são executadas as instruções.
+ 
+Quando a condição se tornar falsa, o processamento será desviado para fora do laço.
+ 
+Importante: Note bem, que caso a condição seja falsa logo no início, as instruções do laço são ignoradas.
+</p>
+<p>Sintaxe</p>
+<pre>
+while (condição)
+{
+Instrução ou bloco de instruções;
+}
+</pre>
+<h3>Comando do while em C</h3>
+<p>Esta estrutura de repetição, garante que o bloco de instruções seja executado no mínimo uma vez, já que a condição que controla o laço é testada apenas no final do comando.
+
+A diferença entre o comando while e o do…while é justamente o local onde a condição que controla o laço é testada.
+
+No comando while a condição é testada antes do bloco de instruções, e caso a condição seja falsa a repetição não será executada.
+
+No do…while o bloco de comandos é executado pelo menos uma vez de forma obrigatória, independente do resultado da expressão lógica
+</p>
+<p>Sintaxe</p>
+<pre>
+#include<stdio.h>
+int main(void)
+{
+  float nota1=0,nota2=0,media=0;
+  int resp;
+ 
+  do
+  {
+    printf("Digite a primeira nota: ");
+    scanf("%f",&nota1);
+    printf("Digite a segunda nota: ");
+    scanf("%f",&nota2);
+ 
+    media = (nota1 + nota2)/2;
+    printf("Media do aluno = %f\n",media);
+ 
+    printf("Digite 1 para continuar ou 2 para sair\n");
+    scanf("%d", &resp);
+ 
+  }while (resp==1);
+ 
+  return 0;
+}
+</pre>
+
+</article>
+
+</section>
+
+<hr>
+</article>
+
+</section>
+
+<hr>
+<section id="section07">
+<h2>Leitura e Produção de Textos</h2>
+<article class="artigos">
+<h3>Artigos</h3>
+<p>Um artigo é um texto eminentemente opinativo — mais que informativo — publicado (ou veiculado)
+ em seção destacada do conteúdo noticioso. Os autores recorrentes de artigos são chamados de articulistas.
+ Em jornais impressos, é normal que os editores convidem personalidades da sociedade (especialistas, intelectuais, autoridades)
+ para escrever artigos sobre temas específicos do noticiário, sem remuneração. Entre leigos, é comum confundir artigo com matéria
+ e tratar ambos os termos como sinônimos, o que é um erro. 
+ Tampouco é sinônimo de coluna, que se caracteriza por ser um espaço permanente reservado para textos do mesmo autor.
+ Articulistas, em geral, não são jornalistas.</p>
+ <p>Abaixo segue um artigo de minha autoria</p>
+<h3>Resenhas</h3>
+<p>Uma resenha é uma narração breve e sucinta. 
+O termo costuma ser usado para se referir à descrição que se realiza de uma obra científica,
+ de um livro, de um filme, de um disco, etc., e que se publica num meio de comunicação ou a nível académico.</p>
+  <p>Abaixo segue uma resenha de minha autoria</p>
+</article>
+</section>
+
+
+
+
+<!-- Estrutura base -->
+
+
+<div id="artigo"></div> 
+	<footer>
+	<div clas="copyrigth">
+	<p>Copyright &copy; WiseIn Tech 2017, todos os direitos reservados.</p>	
+	<ul class="rodape">
+	<li style="padding: 10px;"><a href="Index.html">|Início|</a></li>
+    <li style="padding: 10px;"><a href="formacao.html">Formação|</a></li>
+	<li style="padding: 10px;"><a href="suporte.html">Suporte|</a></li>
+	<li style="padding: 10px;"><a href="sobre.html">Sobre|</a></li>
+	<li style="padding: 10px;"><a href="contato.html">Contato|</a></li>
+	</ul>
+	</div>
+	</footer>
+	</body>
+
+</html>
